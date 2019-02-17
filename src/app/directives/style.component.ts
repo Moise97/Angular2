@@ -3,7 +3,7 @@ import { Component } from '@angular/core'
 @Component ({
   selector: 'app-style',
   template: `
-    <h2>Style Component</h2>
+    <h2>Style Component Directive</h2>
     <p style="padding: 1rem"
       [ngStyle]="alertStyles">
       <ng-content></ng-content>

@@ -9,6 +9,7 @@ import { CounterComponent } from './components/counter.component';
 import { FormComponent } from './components/form.component';
 import { ChildComponent } from './components/child.component';
 import { StyleComponent } from './directives/style.component';
+import { ClassComponent } from './directives/class.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { StyleComponent } from './directives/style.component';
     CounterComponent,
     FormComponent,
     ChildComponent,
-    StyleComponent
+    StyleComponent,
+    ClassComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +32,8 @@ import { StyleComponent } from './directives/style.component';
     AppComponent,
     HelloComponent,
     CounterComponent,
-    FormComponent
+    FormComponent,
+    ClassComponent
   ]
 })
 export class AppModule { }
