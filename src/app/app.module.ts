@@ -8,6 +8,7 @@ import { HelloComponent } from './components/hello.component';
 import { CounterComponent } from './components/counter.component';
 import { FormComponent } from './components/form.component';
 import { ChildComponent } from './components/child.component';
+import { StyleComponent } from './directives/style.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ChildComponent } from './components/child.component';
     HelloComponent,
     CounterComponent,
     FormComponent,
-    ChildComponent
+    ChildComponent,
+    StyleComponent
   ],
   imports: [
     BrowserModule,
