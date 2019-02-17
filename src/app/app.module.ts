@@ -4,10 +4,10 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HelloComponent } from './hello.component';
-import { CounterComponent } from './counter.component';
-import { FormComponent } from './form.component';
-import { ChildComponent } from './child.component';
+import { HelloComponent } from './components/hello.component';
+import { CounterComponent } from './components/counter.component';
+import { FormComponent } from './components/form.component';
+import { ChildComponent } from './components/child.component';
 
 @NgModule({
   declarations: [
